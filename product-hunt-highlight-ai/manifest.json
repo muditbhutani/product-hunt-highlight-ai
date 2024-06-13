@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "PH Hide AI Products",
-  "version": "2024.06.12",
-  "description": "Hides product blocks on Product Hunt if the title contains 'AI'",
+  "name": "PH Highlight AI Products",
+  "version": "2024.06.13",
+  "description": "Highlights product blocks on Product Hunt if the title contains 'AI'",
   "permissions": ["activeTab"],
   "background": {
     "service_worker": "background.js"

@@ -3,7 +3,8 @@ function hideAIProducts() {
   productBlocks.forEach((block) => {
     const titleElement = block.querySelector('a[data-test^="post-name-"] div');
     if (titleElement && titleElement.textContent.toLowerCase().includes("ai")) {
-      block.style.display = "none";
+      // block.style.display = "none";
+      block.style.backgroundColor = "yellow";
     }
   });
 }
